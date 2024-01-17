@@ -1,6 +1,6 @@
 import Header from './pages/Header'
 import Article from './elements/Article'
-import Footer from './pages/footer'
+import Footer from './pages/FooterPage'
 
 const App = () => {
   return (
