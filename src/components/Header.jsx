@@ -3,7 +3,9 @@ import Navbar from '../elements/Navbar'
 const Header = () => {
     return (
         <>
-            <Navbar /> 
+        <div className='sticky top-0 z-1'>
+          <Navbar /> 
+        </div>
         </>
      );
 

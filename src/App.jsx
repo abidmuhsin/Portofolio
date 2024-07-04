@@ -1,12 +1,14 @@
-import Header from './pages/Header'
-import Article from './elements/Article'
-import Footer from './pages/FooterPage'
+import Header from './components/Header'
+import Footer from './components/FooterPage'
+import Body from './components/Body'
+import About from './components/About'
 
 const App = () => {
   return (
     <div>
       <Header />
-      <Article />
+      <Body />
+      <About />
       <Footer />
     </div>
   )
