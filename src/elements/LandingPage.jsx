@@ -6,12 +6,12 @@ import ProfileImage from '../assets/ProfileImage.jpg'
 
 const LandingPage = () => {
     return (
-        <div className="flex h-[90vh] justify-center items-center border-y-black-2">
+        <div className="flex h-[80vh] justify-center items-center border-y-black-2 bg-slate-900">
             <img src={ProfileImage} alt="profile" className='w-[300px] rounded-full mr-[15vh] border-4 border-black'/>
-            <div className="text-left font-sans">
+            <div className="text-left font-sans text-white">
                 <h1 className="">Hello World...I'm</h1>
                 <h2 className="text-[30px] font-bold">Abid Muhsin</h2>
-                <h3 className="text-[20px] text-blue-800">Front End Web Developer</h3>
+                <h3 className="text-[20px] text-yellow-500">Front End Web Developer</h3>
                 <div className="w-full mt-5">
                     <div className="flex mb-2"><AiOutlineInstagram className="text-[22px] mx-2" /><p><a href="https://www.instagram.com/abidmsn_/" className=" hover:font-semibold">Instagram: abidmsn_</a></p></div>
                     <div className="flex mb-2"><AiTwotoneMail className="text-[22px] mx-2"/><p>Email: abidmhsn@gmail.com</p></div>
