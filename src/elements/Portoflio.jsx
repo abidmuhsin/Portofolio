@@ -1,9 +1,18 @@
 import ProjectCard from "../container/ProjectCard"
 import PopUp from '../container/PopUp.jsx'
 import { useState } from "react";
+import todo from '../assets/todo1.png'
+import todo2 from '../assets/todo2.png'
+import todo3 from '../assets/todo3.png'
+import todo1 from '../assets/todo1.png'
 
 const Portfolio =()=> {
     const [buttonPopup, setButtonPopup] = useState (false);
+
+    const images = [
+        todo1,todo2,todo3
+    ];
+
     return (
         <div className="h-[100vh] bg-slate-900">
             <div className="flex justify-center flex-col items-start p-16 ml-20 text-white text-3xl font-bold">
@@ -15,13 +24,14 @@ const Portfolio =()=> {
                 ImageUrl=""
                 TitleProject="TrackMate"
                 ProjectDescription="Aplikasi untuk membantu kebutuhan UMKM"
-                ButtonOnclick={()=> setButtonPopup(true)('prject 1')}/>
+                ButtonOnclick={()=> setButtonPopup(true)}/>
                 <ProjectCard 
-                ImageUrl=""
-                TitleProject="Simple Todo-list App"
-                ProjectDescription="Aplikasi untuk membantu kebutuhan UMKM"
-                ButtonOnclick={()=> handleClick('prject 1')}/>
+                ImageUrl={todo}
+                TitleProject="Simple Todolist-App"
+                ProjectDescription="Projek ini merupakan projek individu. Aplikasi ini untuk membuat daftar kegiatan yang harus dilakukan"
+                ButtonOnclick={()=> setButtonPopup(true)}/>
                 <PopUp trigger={buttonPopup} setTrigger={setButtonPopup}
+                    images={images}
                     nameProject="Abid Muhsin"
                     />
             </div>
