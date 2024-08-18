@@ -67,7 +67,7 @@ const Portfolio = () => {
     const projects = [
         {
             name: "TrackMate",
-            description: "Aplikasi untuk membantu kebutuhan UMKM dan bertujuan untuk menyelesaikan masalah yang dimiliki oleh Amati Indonesia. Saya masuk dalam tim Cloud Computing",
+            description: "Aplikasi untuk membantu kebutuhan UMKM dan bertujuan untuk menyelesaikan masalah yang dimiliki oleh Amati Indonesia. Saya masuk dalam tim Cloud Computing bersama 2 teman saya",
             images: [trackmate1, trackmate2, trackmate3, trackmate4],
             build: "ReactJS, TailwindCSS, HapiJS, NodeJS",
             link: "https://github.com/C23-GT01, https://web-app-five-beta.vercel.app/ ",
@@ -83,7 +83,7 @@ const Portfolio = () => {
         },
         {
             name: "Website Puskesmas Wuasa",
-            description: "Projek ini merupakan proker saya selama KKN di Desa Wuasa yaitu membuatkan Website Profile dari Puskesmas Wuasa. Saya mengerjakan semua pembangunan dari website nya sendirian",
+            description: "Projek ini merupakan proker saya selama KKN di Desa Wuasa yaitu membuatkan Website Profile dari Puskesmas Wuasa. Pengerjaan Website ini dilakukan oleh saya sendiri",
             images: [puskes1, puskes2, puskes3, puskes4],
             build: "ReactJS, TailwindCSS",
             link: "https://github.com/abidmuhsin/puskesmas-wuasa, http://puskesmas-wuasa.site/ ",
